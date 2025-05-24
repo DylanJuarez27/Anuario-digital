@@ -1,0 +1,43 @@
+.box-friends{
+    text-align: center;
+    overflow-y: auto;
+    background-color: #fff;
+    min-height: 250px;  
+    
+}
+
+.photo-friend{
+   width: 10px;
+   height: 10px;
+}
+
+.box-friends::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+.box-friends::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+  }
+ 
+
+
+ul {
+    list-style-type: none; 
+    padding: 0;
+  }
+  
+  ul a {
+    text-decoration: none; 
+    color: #000; 
+    font-size: 20px; 
+    padding: 20px 0;
+    display: block; 
+    transition: all 0.3s ease; 
+  }
+  
+  ul a:hover {
+    color: #0056b3; 
+    background-color: #f1f1f1; 
+    border-radius: 4px; 
+  }

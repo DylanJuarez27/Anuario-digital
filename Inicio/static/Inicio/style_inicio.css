@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  transition: background-image 1s ease-in-out; 
+}
+
+/* Fondo con transparencia */
+.container {
+    background-color: rgba(255, 255, 255, 0.9); /* Transparente */
+    padding: 30px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Botones más grandes */
+.btn-custom {
+    margin: 10px 0;
+    padding: 12px 24px;
+    font-size: 1.5rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+footer span{
+    background-color: rgb(52, 52, 53);
+    color: #ffffff;
+    padding:10px;
+    border-radius: 0.5rem;
+}
+
+.custom-box {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 30px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    width: 600px; /* Puedes ajustar este valor según el gusto */
+    max-width: 90%;
+}

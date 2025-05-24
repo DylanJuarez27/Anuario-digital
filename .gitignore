@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+
+# Django
+*.log
+db.sqlite3
+
+# Entorno virtual
+env/
+.venv/
+venv/
+
+# Archivos sensibles
+.env
+credenciales.env
+
+# Archivos del sistema
+.DS_Store
+
+# Archivos del entorno Conda
+*.lock
+

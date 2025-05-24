@@ -1,0 +1,33 @@
+.prize_card{
+    text-align: center;
+}
+.prize_card:hover{
+   cursor: pointer;
+}
+
+.card-expand-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 3s ease;
+}
+
+.card-expand-content.expandido {
+  max-height: 1000px;
+}
+
+
+.card .col-md-4 img {
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.bg-white.shadow-sm {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15) !important;
+  background-color: white !important;
+  border-radius: 8px;
+}
+
+#card-expand-trigger {
+  cursor: pointer;
+}
