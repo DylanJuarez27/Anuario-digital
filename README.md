@@ -17,8 +17,7 @@ Este proyecto es una aplicación web desarrollada con Django que permite a los e
 - PostgreSQL
 - HTML/CSS
 - JavaScript (básico)
-- Folium (para geolocalización)
-- Git
+
 
 ## Estructura general
 
